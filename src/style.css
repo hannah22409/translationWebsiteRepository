@@ -3,27 +3,27 @@
   background-image: url(https://www.planetware.com/wpimages/2021/04/ohio-cleveland-attractions-overview-evening-river.jpg);
 }
 .complete:hover {
-  cursor: url(https://cur.cursors-4u.net/toons/too-11/too1009.png), auto !important;
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur267.cur), auto !important;
 }
 .all {
-  background: #f0aecc;
+  background: #97d5fe;
   padding: 8px 20px;
   border-radius: 25px;
-  max-width: 600px;
+  max-width: 950px;
   margin: 0 auto;
   text-align: center;
   font-weight: 100;
   font-size: 20px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 .all:hover {
-  cursor: url(https://cur.cursors-4u.net/toons/too-11/too1009.png), auto !important;
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur267.cur), auto !important;
 }
 .header {
-  font-family: "Rubik", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   background: #f0aecc;
 }
 .footer {
-  font-family: "Rubik", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   background: #f0aecc;
 }
