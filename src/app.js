@@ -2,8 +2,8 @@
 function notDone() {
   alert("I'll change it when I have one");
 }
-let notDoneYet = document.querySelector(".notDone");
-notDoneYet.addEventListener("click", notDone);
+let almost = document.querySelector(".notDone");
+almost.addEventListener("click", notDone);
 
 //this not done yet function for the SAMPLES on samples page
 function notDoneSample() {
@@ -18,3 +18,16 @@ function notDoneLogo() {
 }
 let notDoneLogoo = document.querySelector(".notDoneLogo");
 notDoneLogoo.addEventListener("click", notDoneLogo);
+
+//this not done yet function for opening classmates' resource html page
+function passwordResources() {
+  let passwordResponse = prompt("What is the password?");
+
+  if (passwordResponse === "gracias") {
+    alert("open page");
+  } else {
+    alert("Sorry, these resources are restricted to authorized personnel.");
+  }
+}
+let questionButton = document.querySelector("#buttonOne");
+questionButton.addEventListener("click", passwordResources);
