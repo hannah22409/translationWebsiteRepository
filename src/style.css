@@ -1,6 +1,9 @@
 /* container for all of the page */
 .complete {
   background-image: url(https://www.planetware.com/wpimages/2021/04/ohio-cleveland-attractions-overview-evening-river.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .complete:hover {
   cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur267.cur), auto !important;
@@ -22,8 +25,10 @@
 .header {
   font-family: "Nanum Gothic", sans-serif;
   background: #f0aecc;
+  padding: 7px 10px 5px 10px;
 }
 .footer {
   font-family: "Nanum Gothic", sans-serif;
   background: #f0aecc;
+  padding: 7px 10px 5px 10px;
 }
