@@ -28,6 +28,11 @@
   padding: 7px 10px 5px 10px;
   color: #212529;
 }
+@media (max-width: 400px) {
+  .header {
+    font-size: 21px !important;
+  }
+}
 .headerPadding {
   padding: 7px 10px 5px 10px;
   margin: 0 auto;
