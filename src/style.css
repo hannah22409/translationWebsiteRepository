@@ -1,15 +1,19 @@
 /* container for all of the page */
+/* I was using https://www.planetware.com/wpimages/2021/04/ohio-cleveland-attractions-overview-evening-river.jpg for the background image (Cle) */
 .complete {
-  background-image: url(https://www.planetware.com/wpimages/2021/04/ohio-cleveland-attractions-overview-evening-river.jpg);
+  background-image: url(https://global-uploads.webflow.com/5ebae4faa2cf589870550a07/5f2342886e348433923f856a_oretta%20background%203.jpg);
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.complete:hover {
-  cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur267.cur), auto !important;
+/* apply text color to elements who aren't following textdecoration:none */
+.hideLink {
+  color: #212529;
 }
+/* I was using "Nanum Gothic", sans-serif for the font-family before I saw Oretta */
 .all {
-  background: #97d5fe;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   padding: 8px 20px;
   border-radius: 25px;
   max-width: 950px;
@@ -17,18 +21,23 @@
   text-align: center;
   font-weight: 100;
   font-size: 20px;
-  font-family: "Nanum Gothic", sans-serif;
-}
-.all:hover {
-  cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur267.cur), auto !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .header {
-  font-family: "Nanum Gothic", sans-serif;
-  background: #f0aecc;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
   padding: 7px 10px 5px 10px;
+  color: #212529;
+}
+.headerPadding {
+  padding: 7px 10px 5px 10px;
+  margin: 0 auto;
+  text-align: center;
 }
 .footer {
-  font-family: "Nanum Gothic", sans-serif;
-  background: #f0aecc;
+  font-family: "PT Sans", sans-serif;
   padding: 7px 10px 5px 10px;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
